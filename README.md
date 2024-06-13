@@ -5,13 +5,13 @@ This repository contains implementations and comparisons of various sorting algo
 ## Table of Contents
 
 - [Overview](#overview)
+- [File Structure](#file-structure)
+- [How to Use](#how-to-use)
 - [Classes](#classes)
 - [Implementation](#implementation)
 - [Data Collection and Results](#data-collection-and-results)
 - [Algorithm Complexity Analysis](#algorithm-complexity-analysis)
 - [Conclusion](#conclusion)
-- [File Structure](#file-structure)
-- [How to Use](#how-to-use)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,6 +19,22 @@ This repository contains implementations and comparisons of various sorting algo
 ## Overview
 
 The objective of this study is to evaluate and compare the execution times of selected sorting algorithms, including Merge Sort, Selection Sort, and Heap Sort. These algorithms are ideal candidates for comparative analysis because they have varying time and space complexities.
+
+## File Structure
+
+The repository is structured as follows:
+
+- **src/**: Contains the Java source files.
+  - **HeapSort.java**: Contains the implementation of the heap sort algorithm.
+  - **MergeSort.java**: Contains the implementation of the merge sort algorithm.
+  - **SelectionSort.java**: Contains the implementation of the selection sort algorithm.
+  - **SortingCompare.java**: Contains the code to compare the performance of the sorting algorithms.
+## How to Use
+
+1. Clone the repository to your local machine.
+2. Navigate to the `src` directory.
+3. Compile the Java source files using a Java compiler (e.g., `javac`).
+4. Run `SortingCompare.java` to see the performance comparison of the sorting algorithms.
 
 ## Classes
 
@@ -33,6 +49,8 @@ The objective of this study is to evaluate and compare the execution times of se
   
 - **SortingCompare.java**
   - Compares the performance of the implemented sorting algorithms using various input sizes and data types.
+ 
+  
 
 ## Implementation
 
@@ -111,21 +129,6 @@ Selection Sort exhibits significantly higher time complexity as the input size i
 ## Conclusion
 
 The performance of Merge Sort, Selection Sort, and Heap Sort was evaluated and compared for varying input sizes. While Merge Sort generally provides stable and efficient sorting performance, Heap Sort showed surprising performance in this particular implementation. Selection Sort, on the other hand, had the highest time complexity, making it the least efficient for larger datasets.
-
-## File Structure
-
-The repository is structured as follows:
-
-- **HeapSort.java**: Contains the implementation of the heap sort algorithm.
-- **MergeSort.java**: Contains the implementation of the merge sort algorithm.
-- **SelectionSort.java**: Contains the implementation of the selection sort algorithm.
-- **SortingCompare.java**: Contains the code to compare the performance of the sorting algorithms.
-
-## How to Use
-
-1. Clone the repository to your local machine.
-2. Compile the Java source files using a Java compiler (e.g., `javac`).
-3. Run `SortingCompare.java` to see the performance comparison of the sorting algorithms.
 
 ## Testing
 
