@@ -24,7 +24,7 @@ The objective of this study is to evaluate and compare the execution times of se
 
 The repository is structured as follows:
 
-- **src/**: Contains the Java source files.
+- [Src](https://github.com/sancakerkan/SortingAlgorithmsComparison/tree/main/src): Contains the Java source files. (Click Src to navigate)
   - **HeapSort.java**: Contains the implementation of the heap sort algorithm.
   - **MergeSort.java**: Contains the implementation of the merge sort algorithm.
   - **SelectionSort.java**: Contains the implementation of the selection sort algorithm.
