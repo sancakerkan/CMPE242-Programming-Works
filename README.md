@@ -30,11 +30,28 @@ The repository is structured as follows:
   - **SelectionSort.java**: Contains the implementation of the selection sort algorithm.
   - **SortingCompare.java**: Contains the code to compare the performance of the sorting algorithms.
 ## How to Use
-
 1. Clone the repository to your local machine.
 2. Navigate to the `src` directory.
 3. Compile the Java source files using a Java compiler (e.g., `javac`).
 4. Run `SortingCompare.java` to see the performance comparison of the sorting algorithms.
+### How to Run in Visual Studio Code
+
+1. Clone the repository to your local machine.
+2. Open Visual Studio Code.
+3. Go to `File -> Open Folder` and select the cloned repository directory.
+4. Ensure that you have the Java Extension Pack installed in VS Code.
+5. Open the `SortingCompare.java` file.
+6. Click the "Run" button at the top-right corner of the editor, or right-click inside the file and select `Run Java`.
+### How to Run in Eclipse
+
+1. Clone the repository to your local machine.
+2. Open Eclipse IDE.
+3. Go to `File -> Import -> Existing Projects into Workspace`.
+4. Select the cloned repository directory.
+5. Click `Finish` to import the project.
+6. Navigate to the `src` directory in the Project Explorer.
+7. Right-click on `SortingCompare.java` and select `Run As -> Java Application`.
+
 
 ## Classes
 
